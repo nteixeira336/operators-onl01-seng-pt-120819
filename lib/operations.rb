@@ -12,8 +12,7 @@ end
 
 
 def not_safe?(speed)
-speed=60
-not_safe >60 : <30
+
 end
 	
 
