@@ -1,10 +1,11 @@
-requie 'pry'
+require 'pry'
 def unsafe?(speed)
 speed=60 
 if speed >= 60
   "true"
 else 
   "false"
+  binding.pry
 end
 
 
